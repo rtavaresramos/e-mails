@@ -99,10 +99,6 @@ td{
 }
 .third-section{
 
-  background-image: url(https://uploaddeimagens.com.br/images/002/637/876/full/bg1.png?1588913674);
-  background-repeat: no-repeat;
-  background-position:center center;
-
   padding: 40px 0 0 0 !important;
  .container-button{
       display: flex;
@@ -169,62 +165,23 @@ td{
   }
 }
 
-.fourth-section{
-
-  background-image: url(https://uploaddeimagens.com.br/images/002/637/882/full/bg2.png?1588916374);
+.main-section-2{
+  background-image: url(https://uploaddeimagens.com.br/images/002/658/553/full/untitled_%281%29.png?1589866487);
   background-repeat: no-repeat;
-  background-position:center center;
-  background-size: 100% 500%;
+  background-position:center 200px;
 
-
-    h2{
-      color: $white-color;
-      font-size: 1.7em;
-      text-transform: uppercase;
-      font-weight: 700!important;
-      padding-top: 30px;
-
-      span{
-        font-size: 24px;
-        color: $orange-color !important;
-
+  h1{
+      font-size: 22px;
+      strong{
+          font-size: 28px
       }
-    }
-
-  .card-item{
-    width: 200px !important;
-    margin: 10px auto;
-
-    padding: 0 10px;
-    
-    .container-button{
-      display: flex;
-      margin-top: -4px;
-      height: 30px;
-      background: $orange-color;
-
-    }
-    .container-button a{ 
-      width: 200px!important;
-      margin: 0 auto;
-      justify-content: center;
-      text-align: center;
-    }
-    .container-button a.see-more{
-      color: $white-color!important;
-      font-weight: 600!important;
-
-      margin: 6px auto!important;
-    }
-
   }
-  .fourth-container{
-
-    width: 100%;
-    padding: 0 auto;
-  }
+img{
+    max-width: 300px !important;
+    width: auto;
 }
 
+}
 .fifth-section{
   background-image: url(https://uploaddeimagens.com.br/images/002/638/824/full/bg5.png?1588963199);
   background-repeat: no-repeat;
