@@ -99,7 +99,7 @@ td{
 }
 .third-section{
 
-  padding: 40px 0 0 0 !important;
+
  .container-button{
       display: flex;
       margin-top: -4px;
@@ -136,8 +136,8 @@ td{
     padding-top: 40px;
     margin-bottom: 40px;
   }
-  .arrow-bg img{
-    height: 55px;
+  .arrow-bg a{
+      background: #000;
   }
 
   .card-item{
@@ -190,23 +190,13 @@ img{
   
   .fifth-container{
     width: 600px;
-    margin: 70px auto 50px auto;
-    background: #fff;
-    border:1px outset rgba(0,0,0,.1);
-    box-shadow: 5px 5px 5px rgba(0,0,0,.4);
-    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.4);
-    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.4);
 
-  .sell-container{
-    width: 600px;
-    height: 100px;
-    background: #fff !important;
-    margin: 0 auto;
-    padding-top: 20px !important;
-  }
+    margin: 70px auto 50px auto;
+    background: transparent;
 
   .card-head{
     margin-bottom: -20px;
+
   }
   .button-container{
     width: 170px;
